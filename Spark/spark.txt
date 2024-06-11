@@ -1,0 +1,8 @@
+At a high level, every Spark application consists of a driver program that launches
+various parallel operations on a cluster. The driver program contains your applica‐
+tion’s main function and defines distributed datasets on the cluster, then applies oper‐
+ations to them.In the preceding examples, the driver program was the Spark shell
+itself, and you could just type in the operations you wanted to run.
+
+Driver programs access Spark through a SparkContext object, which represents a
+connection to a computing cluster.
